@@ -159,3 +159,44 @@ header{
     font-weight: bold;
     list-style-type: none;
 }
+
+.contact{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 20px;   
+}
+
+form{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.input-group input, .input-group textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gainsboro;
+    font-weight: bold;
+    outline: none;
+}
+
+.input-group input {
+    height: 40px;
+}
+
+textarea {
+    height: 100px;
+}
