@@ -31,9 +31,28 @@ body {
 .right {
 	background-color: green;
 }
+
 .left,
 .right {
 	width: 50%;
+	height: calc(100vh - 65px);
+	float: left;
+}
+
+.pt_left {
+	background-color: blue;
+}
+.pt_center {
+	background-color: aqua;
+}
+.pt_right {
+	background-color: green;
+}
+
+.pt_left,
+.pt_right,
+.pt_center {
+	width: 33%;
 	height: calc(100vh - 65px);
 	float: left;
 }
