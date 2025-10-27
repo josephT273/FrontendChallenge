@@ -56,3 +56,31 @@ body {
 	height: calc(100vh - 65px);
 	float: left;
 }
+
+header,
+footer {
+	height: 25%;
+	background-color: aqua;
+}
+.middle {
+	height: 50%;
+}
+
+.pth_left,
+.pth_right {
+	width: 25%;
+	background-color: green;
+	height: 100%;
+}
+
+.pth_center {
+	width: 50%;
+	background-color: blue;
+	height: 100%;
+}
+
+.pth_left,
+.pth_center,
+.pth_right {
+	float: left;
+}
